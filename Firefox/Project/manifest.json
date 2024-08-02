@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Systembolaget APK beräknare",
+  "version": "1.0",
+
+  "description": "Byter ut kr/l mot APK på systembolaget.se, både inkl och exkl pant.",
+
+  "icons": {
+    "48": "icons/bottles-48.png",
+    "96": "icons/bottles-96.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.systembolaget.se/produkt/*"],
+      "js": ["ApkCalculator.js"]
+    }
+  ]
+}
