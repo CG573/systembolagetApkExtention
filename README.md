@@ -8,7 +8,7 @@ It replaces the "kr/l" with the APK (ml ethanol per kr) of the selected product 
 
 
 
-~~abv is cast to an integer... ffs...~~ NOT YET COMPILED!
+~~abv is cast to an integer... ffs...~~
 
 
 
