@@ -126,7 +126,9 @@ function findAbvElement() {
         const abvMatch = child.textContent.match(/\d+/);
         if (abvMatch) {
           // Convert the matched string to a number
-          const abv = parseInt(abvMatch[0], 10);
+          const abvRaw = child.textContent.slice(0, -7).replace(',','.');
+          console.log("abvRaw: " + abvRaw);
+          const abv = parseFloat(abvRaw);
           return abv;
         }
       }

@@ -8,8 +8,9 @@ It replaces the "kr/l" with the APK (ml ethanol per kr) of the selected product 
 
 
 
+~~abv is cast to an integer... ffs...~~ NOT YET COMPILED!
+
+
+
 some seemingly random numbers are sometimes added to the start of some APKs. This happens for example with [Weinwurm](https://www.systembolaget.se/produkt/vin/weinwurm-2315301/). Please submit any additional faulty product pages [here](https://forms.gle/f6RsMeme7gchasgv7).
 
-
-
-the abv is cast to an integer... ffs...
