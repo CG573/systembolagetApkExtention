@@ -196,17 +196,9 @@ function getPantInt(text) {
 
 console.log("Running Alcoholism.js");
 
-let price = 1;
-let volume = 0;
-let abv = 0;
-
 let lastUrl = location.href;
 new MutationObserver(() => {
-  const currentUrl = location.href;
-  if (currentUrl !== lastUrl) {
-    lastUrl = currentUrl;
     handleUrlChange();
-  }
 }).observe(document, { subtree: true, childList: true });
 
 handleUrlChange();
